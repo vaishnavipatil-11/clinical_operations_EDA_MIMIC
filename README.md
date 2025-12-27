@@ -8,20 +8,6 @@ The objective is not clinical prediction, but **operational insight**, translati
 
 ---
 
-clinical_operations_EDA_MIMIC/
-│
-├── data/
-│   └── features_admission_level.csv            # Dataset used for analysis
-│
-├── notebooks/
-│   └── clinical_operations_EDA.ipynb       # jupyter notebook with EDA 
-│   
-├── plots/
-│   └── monitoring_intensity_vs_mortality.png  # Key operations insights and findings
-│   └── los_vs_mortality.png
-└── README.md                      # Project documentation
----
-
 ## **Business Context**
 
 Hospitals and clinical decision support platforms need to:
