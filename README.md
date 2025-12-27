@@ -6,19 +6,20 @@ This project analyzes hospital and ICU clinical operations data from the **MIMIC
 
 The objective is not clinical prediction, but **operational insight**, translating clinical data into **actionable signals for hospital systems and clinical decision support applications**.
 
+---
 
-## Project Structure
-
-clinical-operations-eda-mimic/
+clinical_operations_EDA_MIMIC/
+│
 ├── data/
-│   └── features_admission_level.csv  
+│   └── features_admission_level.csv            # Dataset used for analysis
+│
 ├── notebooks/
-│   └── clinical_operations_EDA.ipynb  
+│   └── clinical_operations_EDA.ipynb       # jupyter notebook with EDA 
+│   
 ├── plots/
-│   ├── monitoring_intensity_vs_mortality.png  
-│   └── los_vs_mortality.png  
-└── README.md
-
+│   └── monitoring_intensity_vs_mortality.png  # Key operations insights and findings
+│   └── los_vs_mortality.png
+└── README.md                      # Project documentation
 ---
 
 ## **Business Context**
